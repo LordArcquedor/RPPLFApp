@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context="rp.plf.ModoActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="MODERATION"
+            android:textColor="@color/bleu_princpaple"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/bleu_princpaple"
+                    android:textColor="@color/white"
+                    android:text="RESET DE FIN DE LA SAISON"
+                     />
+
+                <Button
+                    android:id="@+id/button222"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/bleu_secondaire"
+                    android:text="CHANGER ROLE D'UN PERSONNE" />
+
+                <Button
+                    android:id="@+id/button333"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/bleu_princpaple"
+                    android:textColor="@color/white"
+                    android:text="SUPPRIMER JOUEUR" />
+
+                <Button
+                    android:id="@+id/button444"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_secondaire"
+                    android:text="AJOUTER AVATAR/BANNIERE DANS LA BOUTIQUE" />
+
+                <Button
+                    android:id="@+id/button555"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_princpaple"
+                    android:textColor="@color/white"
+                    android:text="DONNER UN AVATAR/BANNIERE A UN JOUEUR" />
+
+                <Button
+                    android:id="@+id/button666"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_secondaire"
+                    android:text="SUPPRIMER UNE PUBLICATION" />
+
+                <Button
+                    android:id="@+id/button777"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_princpaple"
+                    android:textColor="@color/white"
+                    android:text="AJOUTER UN JOUEUR DANS LE HALL OF FAME" />
+
+                <Button
+                    android:id="@+id/button888"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_secondaire"
+                    android:text="AJOUTER UN CONSEIL 4" />
+
+                <Button
+                    android:id="@+id/button999"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_princpaple"
+                    android:textColor="@color/white"
+                    android:text="SUPPRIMER UN MATCH/TEAM SD" />
+
+
+                <Button
+                    android:id="@+id/button0000"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bleu_secondaire"
+                    android:text="CREER UNE PUBLICATION RP" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:menu="@menu/main_menu">
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

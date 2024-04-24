@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Menu principal">
+        </item>
+        <item android:id="@+id/profil"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Mon profil">
+        </item>
+        <item android:id="@+id/calendrier"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+            android:title="Calendrier">
+        </item>
+        <item android:id="@+id/social"
+            android:icon="@drawable/ic_baseline_catching_pokemon_24"
+            android:title="Social">
+        </item>
+        <item android:id="@+id/messagerie"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Messagerie">
+        </item>
+        <item android:id="@+id/infoutiles"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Info utiles">
+        </item>
+        <item android:id="@+id/collection"
+            android:icon="@drawable/ic_baseline_collections_24"
+            android:title="Collection">
+        </item>
+        <item android:id="@+id/boutique"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:title="Boutique">
+        </item>
+        <item android:id="@+id/parametre"
+            android:icon="@drawable/ic_baseline_settings_applications_24"
+            android:title="Paramètres">
+        </item>
+        <item android:id="@+id/deco"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Déconnexion">
+        </item>
+
+
+    </group>
+
+</menu>

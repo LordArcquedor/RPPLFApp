@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="top"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/ground"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/Your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADEAUX"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cadeauxmystere@gmail.com"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+</LinearLayout>

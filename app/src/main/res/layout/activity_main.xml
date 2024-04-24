@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context="rp.plf.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Le TOP 5 des infos"
+        android:textColor="@color/bleu_princpaple"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="60dp"
+        />
+
+
+    <ScrollView
+        android:paddingTop="120dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center|center_vertical"
+                android:minHeight="48dp"
+                android:paddingTop="0dp"
+                android:text="🔎 Rechercher une publication 🔎"
+                android:textAlignment="center"
+                android:textColor="@color/bleu_secondaire"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/infoRPlast"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir"
+                        android:text="infoRPlast"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp" />
+
+                    <Button
+                        android:id="@+id/infoRPlast2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir_bleu"
+                        android:text="infoRPlast2"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/infoRPlast3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:text="infoRPlast3"
+                      />
+
+                    <Button
+                        android:id="@+id/infoRPlast4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir_bleu"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:text="infoRPlast4"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/infoRPlast5"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/arrondir"
+                        android:text="infoRPlast5"
+                   />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/infoJoueur"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir_bleu"
+                        android:text="infoJoueur"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/infoJoueur2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir"
+                        android:text="infoJoueur2"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp" />
+
+                    <Button
+                        android:id="@+id/infoJoueur3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir_bleu"
+
+                        android:text="infoJoueur3"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/infoJoueur4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/arrondir"
+                        android:text="infoJoueur4"
+         />
+
+                    <Button
+                        android:id="@+id/infoJoueur5"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textAlignment="textStart"
+                        android:paddingStart="10dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/arrondir_bleu"
+                        android:text="Cadeau"
+
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:menu="@menu/main_menu">
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

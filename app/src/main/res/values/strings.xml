@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ligue RPPLF</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="Click_to_Login">Click to Login</string>
+    <string name="Click_to_Register">Click to Register</string>
+    <string name="logout">logout</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open"> Open Navigation Drawer</string>
+    <string name="close"> Close Navigation Drawer</string>
+    <string name="title_activity_afficher_champion">AfficherChampionActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi3m5ppT39hjALweEyl8GC2+tTjeAyc/FhhQVDJpBc6yOOoYtqsg85qcL+aGSHSa9RvYSUhtGcX7wjMSk+BId+bf/Zwa/NfSIL0ihae1tDuOJbmv+qY00K/GT54Qz377M5XlQ+SxAKHY6ip2uOwommrmxTGUsGl2OU00LFSqlY5raP/lYXK0shNxFtraqZpyOEfwupMzD2N2xGJ3rhDGhm+hs8/QulS4eSC7MCpgmqlPs/URBChnQVrMvHqD2/ZMsPo0VdG+07lcr1F8z0tleNLp51FgGCvcwsULf+nBP7lXTVmU3jvA0ei6w08L8CnjbZdJIzC3P/raSNl9aEDIBmwIDAQAB</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="locale_language">fr</string>
+    <string name="locale_country">FR</string>
+</resources>
